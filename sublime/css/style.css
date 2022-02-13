@@ -1,0 +1,102 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/  
+body{
+    background-color: #141414;
+}
+.wrapper {}
+.header {
+    background: url("C:/Users/1/Desktop/sublime/sublime/img/body/bg.png") center no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 1027px;
+}
+.container,.container2 {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.container2{
+    background-color: #ffffff;
+}
+.header__body {
+}
+.header__title {
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 202px;
+    font-weight: 700;
+}
+.title {
+}
+.header__text {
+color: #ffffff;
+font-family: "Myriad Pro";
+font-size: 18px;
+}
+.text {
+}
+.download {
+}
+.yellow, 
+.header::first-letter, 
+.header__text::first-letter,
+span {
+    color: #ffc600;
+}
+
+p.header__text.text {
+    margin: 20px 10px;
+    max-width: 400px;
+}
+a.download.yellow {
+    margin-left: 10px;
+}
+.img {
+    z-index: 0;
+    position: absolute;
+}
+.img__title {
+    z-index: 50;
+    padding-top: 60px;
+    position: relative;
+    margin: 80px 0px 0px 20px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 48px;
+    max-width: 500px;
+}
+.menu {
+    z-index: 50;
+    position: relative;
+}
+.nav{
+    display: flex;
+}
+ul {
+    margin: 60px 0px 0px 20px;
+}
+.menu__item {
+    color: #ffc600;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+}
